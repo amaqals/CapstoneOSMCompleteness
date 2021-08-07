@@ -1,4 +1,10 @@
 # osm_completeness
+
+IMPORTANT:
+This github report contains the work done by a team at New York University’s Center for Urban Science and Progress (NYU CUSP), which modifies a model created by New Light Technologies (NLT) for the World Bank in assessing OSM completeness in road networks, through satellite data-based classification algorithms. 
+
+
+
 This series of notebooks builds a model for predicting OSM road length using random forest regression.
 
 First, an [Observable notebook](https://observablehq.com/d/176fbd0640a04220) is used to identify those areas of a given region that already have complete OSM building mapping.Those areas are used as a training set for building the regression model. The order of notebook execution is:
